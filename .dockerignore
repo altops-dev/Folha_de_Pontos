@@ -1,0 +1,12 @@
+.git
+.github
+.gitignore
+.env
+.env.example
+service_account.json
+service_account.example.json
+__pycache__
+.venv
+venv
+README.md
+*.md

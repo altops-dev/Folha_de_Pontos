@@ -1,0 +1,17 @@
+﻿# Credenciais e ambiente local
+service_account.json
+.env
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# SO / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
