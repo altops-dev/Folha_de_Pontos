@@ -2,9 +2,12 @@ name: Validation and Security CI
 
 on:
   push:
-    branches: [ "main", "master" ]
+    branches:
+      - '**'
+
   pull_request:
-    branches: [ "main", "master" ]
+
+  workflow_dispatch:
 
 jobs:
   security-check:
